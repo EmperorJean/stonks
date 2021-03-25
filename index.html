@@ -8,19 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to Stonks</h1>
+    </header>
     <div class="container">
-            
-            <div class="section" id="numDays"> 
-            <label for="numDays">Starting Balance</label> 
-            <input type="text" id="starting-cash" placeholder="Starting balance">
-            <label for="numDays">Percentage</label>
-            <input type="text" id="percentage" placeholder="Daily gain">
-            <label for="numDays">Goal Amount</label>
-            <input type="text" id="goal" placeholder="Goal">
-            <label for="numDays">Number of Days To Achieve</label>
-            <input type="text" id="answer" readonly>
+        <div class="getNumDays">
+            <h1 class="title">Trades to reach</h1>
+            <div class="form">
+                <label for="starting-cash">starting cash</label>
+                <input type="text" id="starting-cash">
+            </div>
+            <div class="form">
+                <label for="percentage">percentage</label>
+                <input type="text" id="percentage">
+            </div>
+            <div class="form">
+                <label for="goal">Goal</label>
+                <input type="text" id="goal">
+            </div>
+            <hr>
+            <div class="form">
+                <label for="answer">Result</label>
+                <p type="text" id="answer" readonly>
+            </div>
+        <button onclick="getNumDays()" id="button">Get Number of trades</button>
         </div>
-        <button onclick="getNumDays()" id="button">Get Number of days</button>
+    </div>
     </div>
 
 

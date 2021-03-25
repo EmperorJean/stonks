@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.form
+{
+    background-color: whitesmoke;
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+}
+
+.form label{
+    white-space: nowrap;
+    text-align: right;
+    width: 100px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.form input
+{
+    height: 2em;
+    width: 15em;
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.getNumDays
+{
+    background-color: turquoise;
+    height: fit-content;
+}
+
+.getNumDays h1{
+    padding-left: 20px;
+}
+
+#button
+{
+    display: inline-block;
+    text-align: center;
+    background-color: whitesmoke;
+    border-style: none;
+    padding: 10px;
+    margin: 10px 2px;
+    padding-left: 20px;
+    margin-left: 11.5rem;
+}
+
+#button:hover{
+    background-color: antiquewhite;
+}
+
+#answer
+{
+    height: auto;
+}
